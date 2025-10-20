@@ -1,0 +1,101 @@
+version: '3.8'
+
+services:
+  # Servizio Backend (Strapi - Headless CMS)
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    working_dir: /opt/app/app
+    env_file: .env
+    environment:
+      DATABASE_CLIENT: ${DATABASE_CLIENT}
+      DATABASE_HOST: db
+      DATABASE_PORT: ${DATABASE_PORT}
+      DATABASE_NAME: ${DATABASE_NAME}
+      DATABASE_USERNAME: ${DATABASE_USERNAME}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      JWT_SECRET: ${JWT_SECRET}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
+      API_TOKEN_SALT: ${API_TOKEN_SALT}
+      APP_KEYS: ${APP_KEYS}
+      NODE_ENV: ${NODE_ENV}
+    command: >
+      sh -c 'if [ ! -d node_modules ] || [ -z "$(ls -A node_modules 2>/dev/null)" ]; then npm install --legacy-peer-deps; fi; npm run develop'
+    volumes:
+      - ./backend/app:/opt/app/app
+      - verona-guide-backend-node-modules:/opt/app/app/node_modules
+    ports:
+      - "1337:1337"
+    depends_on:
+      - db
+    networks:
+      - verona-guide-network
+
+  # Servizio Database (PostgreSQL per Strapi)
+  db:
+    image: postgres:14-alpine
+    container_name: verona-guide-db
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      POSTGRES_USER: ${DATABASE_USERNAME}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      POSTGRES_DB: ${DATABASE_NAME}
+    volumes:
+      - strapi-data:/var/lib/postgresql/data/
+    ports:
+      - "5432:5432"
+    networks:
+      - verona-guide-network
+
+  # Servizio Frontend (Next.js)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: verona-guide-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/usr/src/app
+      - /usr/src/app/node_modules
+      - /usr/src/app/.next
+    environment:
+      - NEXT_PUBLIC_STRAPI_API_URL=http://backend:1337
+    depends_on:
+      - backend
+    networks:
+      - verona-guide-network
+
+  # Servizio Automazione (n8n)
+  n8n:
+    image: n8nio/n8n
+    container_name: verona-guide-n8n
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_HOST=localhost
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - NODE_ENV=production
+      - WEBHOOK_URL=http://localhost:5678/
+      # Aggiungo il fuso orario per evitare problemi con le esecuzioni schedulate
+      - GENERIC_TIMEZONE=Europe/Rome
+      - N8N_SECURE_COOKIE=false
+    volumes:
+      - n8n-data:/home/node/.n8n
+    networks:
+      - verona-guide-network
+
+volumes:
+  strapi-data:
+  n8n-data:
+  verona-guide-backend-node-modules:
+
+networks:
+  verona-guide-network:
+    driver: bridge

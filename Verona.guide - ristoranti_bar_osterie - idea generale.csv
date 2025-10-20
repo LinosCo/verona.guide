@@ -1,0 +1,159 @@
+,,,,,
+A,UTENTI E FLUSSI PRINCIPALI ,questionario,lingua,"- italiano
+-inglese
+- tedesco
+- francese
+- spagnolo",
+,,,durata visita,"- ore dalle alle
+- mezzagiornata
+- 1 giorno
+- 2 giorni 
+- weekend
+- settimana",
+,,,Interessi - categoria,"- arte
+- storia
+- enogastronomia
+- luoghi instagrammabili
+- cultura
+- musica/ concerti
+- natura
+- esperienze in famiglia",
+,,,tipo di mobilità ,"- solo a piedi
+- con bici (bike sharing o propria)
+- con mezzi pubblici 
+- in auto (parcheggi disponibili)
+- camper (area sosta disponibile)
+- mobilità ridotta/ accessibilità necessaria",
+,,,stile di visita,"- rilassata
+- esplorativa/attiva
+- gastronomica
+- fotografica / visiva",
+,,,tipo viaggiatore,"- famiglia con bambini
+- famiglia con adolescenti
+- con amici
+- viaggio con animali 
+- senior (età 65+)
+- disabili
+- single
+- coppia",
+,,,sensibilità affluenza,"- evito sempre la folla
+- leggera tolleranza
+- non ho problemi",
+,,,budget desiderato,"- economico
+- medio
+- alto",
+,,,motivazione del viaggio,"- prima volta a Verona
+- viaggio di lavoro
+- viaggio romantico
+- weekend culturale
+",
+,,scheda descrizione percorso creato,mappa con itinerario,"- visualizzare le tappe personalizzate su mappa,
+- visualizzare l'itinerario con distanze, tempi, indicazioni reali
+- percorso in tempo reale in base a meteo, affluenza, pause
+
+",
+,,,orari di apertura dei luoghi,"- lun.
+- mar.
+- mer.
+- gio.
+- ven. 
+- sab. 
+- dom.",
+,,,affluenza stimata nell'ora richiesta,"- bassa
+- media
+- alta
+- critica",
+,,,distanza e tempi di percorrenza,"- tempi tra una tappa e l'altra
+- itinerario compatibile con il tempo a diposizione
+",
+,,,meteo,"- adattare i suggerimenti di visita e gli itinerari,
+- evitare disagi (es. luoghi outdoor in caso di pioggia),
+- sfruttare condizioni favorevoli ",
+,,,inclusione di pause consigliate ,"- momenti di ristoro o relax,
+- spazi sicuri, accessibili, autentici dove fermarsi,
+- pause contestualizzate (dopo camminata, tra due visite…)",
+,,,notifiche su cambiamenti ,"(esempio: Castelvecchio è molto affollato ora, vuoi spostare la visita al pomeriggio?)",
+,,,suggerimenti alternativi in tempo reale ,,
+B,CONTENUTI VISIBILI,SCHEDE DETTAGLIATE PER OGNI LUOGO,"- scheda luogo/evento 
+- itinerario tematico
+- suggeriemnti
+- ",,
+,,FOTO,- foto dei luoghi o eventi ,,
+,,DESCRIZIONE + CURIOSITA STORICHE,"- storia locale dle posto 
+- personaggi 
+- curiosità 
+- collegaemnti culturali ",,
+,,DETTAGLI PRATICI,"- orari
+- costi
+- meteo 
+- per chi è ideale
+- ",,
+,,EXTRA,Consigli culturali ,"- spunti storici, artistici, filosofici, sociali,
+- curiosità vere ma poco note,
+- connessioni con il presente, la vita locale, l’identità del luogo",
+,,,Curiosità storiche,,
+,,,Sconti o convenzioni ,se attivare colllaborazioni con locali/negozi/musei,
+,,,recensioni (opzionale) / feedback,,
+,,,Chatbot,,
+C,BACK-END E FONTI DATI ,DATABASE DEI LUOGHI/EVENTI,"- monumeti
+- musei
+- parchi 
+- ristoranti
+- bar
+- ......","- ID
+- nome luogo/evento
+- tipo (luogo, evento ricorrente, ...)
+- categoria principale (arte, comunità, storia...)
+- sottocategoria
+- indirizzo 
+- quartiere se presente 
+- gps
+- ingressogratuito
+- prenotazione necessaria",
+,,ORARI DI APERTURA AGGIORNATI ,"- luogo al chiuso (es. libreria, mostra, museo)
+- luogo all'aperto  (es giardino, festival, mercato, museo, monumento)
+- misto (es location con sapzi interni + cortile ...)
+","- orari
+- accesso gratuito o a pagamento
+- barriere architettoniche
+- accesso disabili (rampe, ascensori) - ""livello di difficoltà 10 scalini all'ingresso""
+- prenotazione se necessaria o meno",
+,,ORARI EVENTI ,,,
+,,COME ARRIVARE,"- linee autobus vicine
+- stazioni bike sharing vicini
+- auto
+- moto
+- camper (posteggi)
+- parcheggi disponibili (vicinanza, costo, accessibilità)
+- a piedi
+","Google Places o OpenStreetMap: per coordinate, trasporti e accessibilità
+API ATV (mezzi pubblici)
+Tobike Verona (bike availability)",
+,,AFFLUENZA LIVE O STIMATA ,"- livello di affluenza previsto (basso/medio/alto)
+- Ore di punta (es. “18:00-20:00”)
+- Avoid times (es. “sabato mattina”, “fine evento Arena”)
+- Distanza da zone congestionate (es. <300m da Piazza Erbe)","da fonti open data o API (es. Google Places Popular Times, Fluctuo per mobilità, sensori urbani)
+Crowd API (webcam/traffico/eventi): per affluenza","si possono utilizzare dei PIN
+
+- verdi: bassa
+- gialli: media
+- rossi: alta"
+,,METEO IN TEMPO REALE - METEO IDEALE,"- qualsiasi
+- sole
+- pioggia
+- nuvoloso
+",via API Meteo (es. OpenWeatherMap),"☀️ Sole	Luoghi panoramici, camminate, cortili, street art
+🌥 Nuvoloso	Musei, giardini semi-coperti, passeggiate lente
+🌧 Pioggia	Librerie, mostre, mercati coperti, botteghe"
+,,CONSIGLI,"- consigliato per
+- non consigliato per: 
+- età consigliata
+- stile di esperienza: rilassata, esplorativa, gastronomica, educativa","- famiglie
+- gruppi
+- bambini
+- cani
+- studenti
+- lettori...",
+,,FEEDBACK E APPRENDIMENTO CONTINUO ,"- Dopo ogni tappa, chiedi un thumbs-up/down sull’esperienza.
+
+- Utilizza feedback per aggiustare il percorso successivo ",,

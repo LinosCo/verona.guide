@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_questionnaire_dietary_preferences",
+  "info": {
+    "displayName": "dietary preference",
+    "description": "Restrizioni o preferenze alimentari"
+  },
+  "options": {},
+  "attributes": {
+    "kind": {
+      "type": "enumeration",
+      "enum": [
+        "nessuna",
+        "vegetariano",
+        "vegano",
+        "senza_glutine",
+        "senza_lattosio",
+        "altro"
+      ],
+      "required": true
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

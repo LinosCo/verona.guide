@@ -1,0 +1,34 @@
+,,,
+,domanda,risposta,tipologia di risposta
+QUESTIONARIO,quando vuoi partire,data e ora,dato specifico
+,durata visita,"- mezzagiornata
+- 1 giorno
+- 2 giorni ",selezione unica
+,Interessi - categoria,"- arte
+- storia
+- enogastronomia
+- luoghi instagrammabili
+- cultura
+- musica/ concerti
+- natura
+- esperienze in famiglia",selezione multipla con grado di interesse
+,tipo di mobilità ,"- solo a piedi
+- con bici (bike sharing o propria)
+- con mezzi pubblici 
+- in auto (parcheggi disponibili)
+- camper (area sosta disponibile)
+- mobilità ridotta/ accessibilità necessaria",selezione multipla
+,tipo viaggiatore,"- famiglia con bambini
+- famiglia con adolescenti
+- con amici
+- viaggio con animali 
+- senior (età 65+)
+- disabili
+- single
+- coppia",selezione unica
+,sensibilità affluenza,"- evito sempre la folla
+- leggera tolleranza
+- non ho problemi",selezione unica
+,budget desiderato,"- economico
+- medio
+- alto",selezione unica

@@ -1,0 +1,216 @@
+{
+  "kind": "collectionType",
+  "collectionName": "destinations",
+  "info": {
+    "singularName": "destination",
+    "pluralName": "destinations",
+    "displayName": "Destination",
+    "description": "Schede delle destinazioni consigliate da Verona.Guide"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true,
+      "unique": true
+    },
+    "short_title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "location": {
+      "type": "component",
+      "component": "destination.location",
+      "required": true
+    },
+    "interest_matches": {
+      "type": "component",
+      "repeatable": true,
+      "component": "destination.interest-match",
+      "min": 1
+    },
+    "audience_tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "destination.audience-tag"
+    },
+    "children_suitability": {
+      "type": "component",
+      "repeatable": true,
+      "component": "destination.children-suitability"
+    },
+    "crowd_profile": {
+      "type": "enumeration",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "variable"
+      ],
+      "default": "medium"
+    },
+    "recommended_rhythm": {
+      "type": "enumeration",
+      "enum": [
+        "rilassato",
+        "equilibrato",
+        "intenso"
+      ],
+      "default": "equilibrato"
+    },
+    "mobility_on_foot": {
+      "type": "boolean",
+      "default": true
+    },
+    "mobility_bike": {
+      "type": "boolean",
+      "default": false
+    },
+    "mobility_public_transport": {
+      "type": "boolean",
+      "default": false
+    },
+    "mobility_car": {
+      "type": "boolean",
+      "default": false
+    },
+    "accessible": {
+      "type": "boolean",
+      "default": false
+    },
+    "accessibility_notes": {
+      "type": "text"
+    },
+    "food_style": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fast",
+        "chilled",
+        "local",
+        "traditional",
+        "organic",
+        "unconventional"
+      ],
+      "default": "none"
+    },
+    "diet_highlights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "questionnaire.dietary-preference"
+    },
+    "budget_level": {
+      "type": "enumeration",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "default": "medium"
+    },
+    "duration_minutes": {
+      "type": "integer"
+    },
+    "duration_category": {
+      "type": "enumeration",
+      "enum": [
+        "short",
+        "medium",
+        "long",
+        "half_day"
+      ]
+    },
+    "best_time_of_day": {
+      "type": "enumeration",
+      "enum": [
+        "morning",
+        "afternoon",
+        "evening",
+        "night",
+        "flexible"
+      ],
+      "default": "flexible"
+    },
+    "seasonality": {
+      "type": "enumeration",
+      "enum": [
+        "all_year",
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "default": "all_year"
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true
+    },
+    "opening_hours": {
+      "type": "component",
+      "repeatable": true,
+      "component": "destination.opening-slot"
+    },
+    "tips": {
+      "type": "component",
+      "repeatable": true,
+      "component": "destination.tip"
+    },
+    "contact_info": {
+      "type": "component",
+      "component": "destination.contact"
+    },
+    "booking_required": {
+      "type": "boolean",
+      "default": false
+    },
+    "booking_notes": {
+      "type": "text"
+    },
+    "priority_score": {
+      "type": "integer",
+      "default": 0
+    },
+    "tags": {
+      "type": "json"
+    },
+    "last_synced": {
+      "type": "datetime"
+    },
+    "sync_frequency": {
+      "type": "enumeration",
+      "enum": [
+        "daily",
+        "weekly",
+        "biweekly",
+        "monthly",
+        "quarterly"
+      ],
+      "default": "weekly"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    }
+  }
+}

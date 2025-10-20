@@ -1,0 +1,150 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questionnaires",
+  "info": {
+    "singularName": "questionnaire",
+    "pluralName": "questionnaires",
+    "displayName": "Questionnaire",
+    "description": "Risposte del questionario di onboarding per Verona.Guide"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "trip_start": {
+      "type": "datetime"
+    },
+    "trip_duration": {
+      "type": "enumeration",
+      "enum": [
+        "mezza_giornata",
+        "un_giorno",
+        "due_giorni"
+      ],
+      "required": true
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "italiano",
+        "inglese",
+        "altro"
+      ],
+      "default": "italiano",
+      "required": true
+    },
+    "language_other": {
+      "type": "string"
+    },
+    "travel_party": {
+      "type": "enumeration",
+      "enum": [
+        "solo",
+        "coppia",
+        "amici",
+        "famiglia",
+        "gruppo"
+      ],
+      "required": true
+    },
+    "has_children": {
+      "type": "boolean",
+      "default": false
+    },
+    "children_age_band": {
+      "type": "enumeration",
+      "enum": [
+        "age_0_5",
+        "age_6_12",
+        "age_13_17"
+      ]
+    },
+    "rhythm": {
+      "type": "enumeration",
+      "enum": [
+        "rilassato",
+        "equilibrato",
+        "intenso"
+      ],
+      "required": true
+    },
+    "rhythm_notes": {
+      "type": "text"
+    },
+    "interests": {
+      "type": "component",
+      "repeatable": true,
+      "component": "questionnaire.interest-weight",
+      "min": 1
+    },
+    "crowd_tolerance": {
+      "type": "enumeration",
+      "enum": [
+        "evita_folla",
+        "moderata",
+        "indifferente"
+      ],
+      "required": true
+    },
+    "mobility_preferences": {
+      "type": "component",
+      "repeatable": true,
+      "component": "questionnaire.mobility-option"
+    },
+    "needs_accessibility": {
+      "type": "boolean",
+      "default": false
+    },
+    "food_style": {
+      "type": "enumeration",
+      "enum": [
+        "fast",
+        "chilled",
+        "local",
+        "traditional",
+        "organic",
+        "unconventional"
+      ],
+      "required": true
+    },
+    "dietary_preferences": {
+      "type": "component",
+      "repeatable": true,
+      "component": "questionnaire.dietary-preference"
+    },
+    "budget_level": {
+      "type": "enumeration",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "required": true
+    },
+    "notes": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "send_email_copy": {
+      "type": "boolean",
+      "default": true
+    },
+    "consent_privacy": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "consent_data_processing": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "consent_marketing": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

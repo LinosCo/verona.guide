@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_destination_tips",
+  "info": {
+    "displayName": "Tip",
+    "description": "Suggerimento o informazione pratica per la visita"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_questionnaire_interest_weights",
+  "info": {
+    "displayName": "interest weight",
+    "description": "Interesse con peso e priorità"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "arte",
+        "storia",
+        "natura",
+        "enogastronomia",
+        "shopping_artigianato",
+        "esperienze_particolari",
+        "nightlife"
+      ],
+      "required": true
+    },
+    "weight": {
+      "type": "integer",
+      "min": 1,
+      "max": 5,
+      "required": true
+    },
+    "must_have": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

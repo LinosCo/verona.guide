@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_destination_locations",
+  "info": {
+    "displayName": "Location",
+    "description": "Informazioni geografiche e indirizzo della destinazione"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "area": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float",
+      "required": true
+    },
+    "longitude": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

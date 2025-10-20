@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_destination_audience_tags",
+  "info": {
+    "displayName": "Audience tag",
+    "description": "Tipo di viaggiatore a cui la destinazione è adatta"
+  },
+  "options": {},
+  "attributes": {
+    "audience_type": {
+      "type": "enumeration",
+      "enum": [
+        "solo",
+        "coppia",
+        "amici",
+        "famiglia",
+        "gruppo"
+      ],
+      "required": true
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

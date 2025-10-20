@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_destination_contacts",
+  "info": {
+    "displayName": "Contact info",
+    "description": "Contatti e riferimenti ufficiali della destinazione"
+  },
+  "options": {},
+  "attributes": {
+    "website": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "booking_url": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+,,,,,
+B,CONTENUTI VISIBILI,SCHEDE DETTAGLIATE PER OGNI LUOGO,"- scheda luogo/evento 
+- itinerario tematico
+- suggeriemnti
+- ",,
+,,FOTO,- foto dei luoghi o eventi ,,
+,,DESCRIZIONE + CURIOSITA STORICHE,"- storia locale dle posto 
+- personaggi 
+- curiosità 
+- collegaemnti culturali ",,
+,,DETTAGLI PRATICI,"- orari
+- costi
+- meteo 
+- per chi è ideale
+- ",,
+,,EXTRA,Consigli culturali ,"- spunti storici, artistici, filosofici, sociali,
+- curiosità vere ma poco note,
+- connessioni con il presente, la vita locale, l’identità del luogo",
+,,,Curiosità storiche,,
+,,,Sconti o convenzioni ,se attivare colllaborazioni con locali/negozi/musei,
+,,,recensioni (opzionale) / feedback,,
+,,,Chatbot,,
+C,BACK-END E FONTI DATI ,DATABASE DEI LUOGHI/EVENTI,"- monumeti
+- musei
+- parchi 
+- ristoranti
+- bar
+- ......","- ID
+- nome luogo/evento
+- tipo (luogo, evento ricorrente, ...)
+- categoria principale (arte, comunità, storia...)
+- sottocategoria
+- indirizzo 
+- quartiere se presente 
+- gps
+- ingressogratuito
+- prenotazione necessaria",
+,,ORARI DI APERTURA AGGIORNATI ,"- luogo al chiuso (es. libreria, mostra, museo)
+- luogo all'aperto  (es giardino, festival, mercato, museo, monumento)
+- misto (es location con sapzi interni + cortile ...)
+","- orari
+- accesso gratuito o a pagamento
+- barriere architettoniche
+- accesso disabili (rampe, ascensori) - ""livello di difficoltà 10 scalini all'ingresso""
+- prenotazione se necessaria o meno",
+,,ORARI EVENTI ,,,
+,,COME ARRIVARE,"- linee autobus vicine
+- stazioni bike sharing vicini
+- auto
+- moto
+- camper (posteggi)
+- parcheggi disponibili (vicinanza, costo, accessibilità)
+- a piedi
+","Google Places o OpenStreetMap: per coordinate, trasporti e accessibilità
+API ATV (mezzi pubblici)
+Tobike Verona (bike availability)",
+,,AFFLUENZA LIVE O STIMATA ,"- livello di affluenza previsto (basso/medio/alto)
+- Ore di punta (es. “18:00-20:00”)
+- Avoid times (es. “sabato mattina”, “fine evento Arena”)
+- Distanza da zone congestionate (es. <300m da Piazza Erbe)","da fonti open data o API (es. Google Places Popular Times, Fluctuo per mobilità, sensori urbani)
+Crowd API (webcam/traffico/eventi): per affluenza","si possono utilizzare dei PIN
+
+- verdi: bassa
+- gialli: media
+- rossi: alta"
+,,METEO IN TEMPO REALE - METEO IDEALE,"- qualsiasi
+- sole
+- pioggia
+- nuvoloso
+",via API Meteo (es. OpenWeatherMap),"☀️ Sole	Luoghi panoramici, camminate, cortili, street art
+🌥 Nuvoloso	Musei, giardini semi-coperti, passeggiate lente
+🌧 Pioggia	Librerie, mostre, mercati coperti, botteghe"
+,,CONSIGLI,"- consigliato per
+- non consigliato per: 
+- età consigliata
+- stile di esperienza: rilassata, esplorativa, gastronomica, educativa","- famiglie
+- gruppi
+- bambini
+- cani
+- studenti
+- lettori...",
+,,FEEDBACK E APPRENDIMENTO CONTINUO ,"- Dopo ogni tappa, chiedi un thumbs-up/down sull’esperienza.
+
+- Utilizza feedback per aggiustare il percorso successivo ",,

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_destination_opening_slots",
+  "info": {
+    "displayName": "Opening slot",
+    "description": "Fascia oraria di apertura della destinazione"
+  },
+  "options": {},
+  "attributes": {
+    "day_of_week": {
+      "type": "enumeration",
+      "enum": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "required": true
+    },
+    "opens_at": {
+      "type": "time"
+    },
+    "closes_at": {
+      "type": "time"
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

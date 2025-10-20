@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_destination_children_suitabilities",
+  "info": {
+    "displayName": "Children suitability",
+    "description": "Compatibilità della destinazione con specifiche fasce d'età dei bambini"
+  },
+  "options": {},
+  "attributes": {
+    "age_band": {
+      "type": "enumeration",
+      "enum": [
+        "age_0_5",
+        "age_6_12",
+        "age_13_17"
+      ],
+      "required": true
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

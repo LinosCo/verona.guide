@@ -1,0 +1,28 @@
+,,
+SCHEDA DESCRIZIONE PERCORSO ,mappa con itinerario,"- visualizzare le tappe personalizzate su mappa,
+- visualizzare l'itinerario con distanze, tempi, indicazioni reali
+- percorso in tempo reale in base a meteo, affluenza, pause
+
+"
+,orari di apertura dei luoghi,"- lun.
+- mar.
+- mer.
+- gio.
+- ven. 
+- sab. 
+- dom."
+,affluenza stimata nell'ora richiesta,"- bassa
+- media
+- alta
+- critica"
+,distanza e tempi di percorrenza,"- tempi tra una tappa e l'altra
+- itinerario compatibile con il tempo a diposizione
+"
+,meteo,"- adattare i suggerimenti di visita e gli itinerari,
+- evitare disagi (es. luoghi outdoor in caso di pioggia),
+- sfruttare condizioni favorevoli "
+,inclusione di pause consigliate ,"- momenti di ristoro o relax,
+- spazi sicuri, accessibili, autentici dove fermarsi,
+- pause contestualizzate (dopo camminata, tra due visite…)"
+,notifiche su cambiamenti ,"(esempio: Castelvecchio è molto affollato ora, vuoi spostare la visita al pomeriggio?)"
+,suggerimenti alternativi in tempo reale ,

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_questionnaire_mobility_options",
+  "info": {
+    "displayName": "mobility option",
+    "description": "Modalità di spostamento preferita"
+  },
+  "options": {},
+  "attributes": {
+    "mode": {
+      "type": "enumeration",
+      "enum": [
+        "a_piedi",
+        "bici",
+        "mezzi_pubblici",
+        "auto_taxi",
+        "mobilita_ridotta"
+      ],
+      "required": true
+    }
+  }
+}
