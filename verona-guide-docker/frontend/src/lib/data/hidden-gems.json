@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "agriturismo-corte-anna",
+    "name": "Agriturismo Corte Anna",
+    "category": "Agriturismo",
+    "area": "Santa Maria di Zevio",
+    "description_it": "Una corte rurale nel silenzio verde di Santa Maria di Zevio, lontana dal traffico e dagli itinerari standardizzati. Qui il tempo rallenta sul serio: natura, ospitalità genuina e quell'aria buona che in città si dimentica di respirare.",
+    "description_en": "A rural farmstead in the quiet green of Santa Maria di Zevio, far from traffic and tourist routes. Time genuinely slows here: nature, real hospitality, and the kind of clean air you forget exists when you live in a city.",
+    "description_de": "Ein Landgut in der ruhigen Grünzone von Santa Maria di Zevio, weit entfernt von Verkehr und Touristenpfaden. Hier verlangsamt sich die Zeit wirklich: Natur, echte Gastfreundschaft und die frische Luft, die man in der Stadt fast vergessen hat."
+  },
+  {
+    "slug": "ettogrammo",
+    "name": "Ettogrammo",
+    "category": "Artigianato/Food",
+    "area": "Centro Verona",
+    "description_it": "Nel cuore di Verona, un negozio di sfusi che fa della scelta consapevole il suo manifesto. Selezione rigorosa, filiera trasparente, zero compromessi sulla qualità. Un posto dove fare la spesa diventa un atto preciso.",
+    "description_en": "In the heart of Verona, a zero-waste grocery store that makes conscious shopping its manifesto. Rigorous curation, transparent sourcing, no compromises on quality. A place where buying groceries becomes a deliberate act.",
+    "description_de": "Im Herzen Veronas: ein Unverpackt-Laden, der bewusstes Einkaufen zum Programm macht. Strenge Auswahl, transparente Lieferkette, keinerlei Kompromisse bei der Qualität. Hier wird der Wocheneinkauf zur bewussten Entscheidung."
+  },
+  {
+    "slug": "bigoleria-alla-rocca",
+    "name": "Bigoleria alla Rocca Agriturismo Corte Verzè",
+    "category": "Agriturismo",
+    "area": "Soave",
+    "description_it": "Tra le colline di Soave, un agriturismo che porta la pasta fresca alla sua espressione più sincera. I bigoli sono fatti come da tradizione: trafilati al bronzo, abbinati a sughi stagionali che cambiano con la dispensa del contadino.",
+    "description_en": "Among the hills of Soave, a farmhouse restaurant that takes fresh pasta to its most sincere expression. Bigoli made the traditional way — bronze-extruded, paired with seasonal sauces that change with what the farmer's pantry offers.",
+    "description_de": "Zwischen den Hügeln von Soave: ein Agriturismo, der frische Pasta in ihrer echtesten Form serviert. Die Bigoli werden traditionell durch Bronze gezogen und mit saisonalen Saucen kombiniert, die sich nach dem richten, was die Vorratskammer gerade hergibt."
+  },
+  {
+    "slug": "antica-locanda-el-grio",
+    "name": "Antica Locanda El Grio",
+    "category": "Ristorante",
+    "area": "Costeggiola, Soave",
+    "description_it": "Una locanda storica a Costeggiola, nel territorio del Soave DOC. Cucina del territorio senza nostalgia da brocanteur: piatti che parlano di vigna e cantina, abbinati ai vini della zona con la competenza di chi ci è nato.",
+    "description_en": "A historic inn at Costeggiola in the Soave DOC wine zone. Local cooking without antique-shop nostalgia: dishes that speak of vineyard and cellar, paired with local wines by people who grew up here.",
+    "description_de": "Ein historisches Gasthaus in Costeggiola im Soave-DOC-Weingebiet. Regionale Küche ohne musealen Charme: Gerichte, die von Weinberg und Keller erzählen, kombiniert mit lokalen Weinen von Menschen, die hier aufgewachsen sind."
+  },
+  {
+    "slug": "la-pecora-nel-bosco",
+    "name": "La Pecora nel Bosco",
+    "category": "Artigianato",
+    "area": "Tregnago",
+    "description_it": "Laboratorio artigianale a Tregnago, nella Vallarsa, dove la lana prende forma con cura e intenzione. Pezzi unici che portano dentro di sé il paesaggio della Lessinia: naturale, non performato.",
+    "description_en": "A craft workshop in Tregnago in the Vallarsa valley, where wool takes shape with care and intention. One-of-a-kind pieces that carry the landscape of Lessinia within them — natural, unperformed.",
+    "description_de": "Ein Handwerksbetrieb in Tregnago im Vallarsa-Tal, wo Wolle mit Sorgfalt und Absicht Form annimmt. Einzelstücke, die die Landschaft der Lessinia in sich tragen — natürlich, uninszeniert."
+  },
+  {
+    "slug": "enoteca-il-drago",
+    "name": "Enoteca Il Drago",
+    "category": "Bar/Enoteca",
+    "area": "Soave",
+    "description_it": "A Soave, dove il vino non è argomento da weekend ma modo di vivere, Il Drago è il posto dove sedersi e capire davvero cosa significa bere bene in questa zona. Carta selezionata, atmosfera senza pretese.",
+    "description_en": "In Soave, where wine is not a weekend topic but a way of life, Il Drago is the place to sit down and truly understand what drinking well means in this area. A curated wine list, no pretensions.",
+    "description_de": "In Soave, wo Wein keine Wochenendangelegenheit, sondern Lebensweise ist, ist Il Drago der Ort zum Verweilen — um wirklich zu verstehen, was es bedeutet, hier gut zu trinken. Sorgfältige Weinkarte, keine Allüren."
+  },
+  {
+    "slug": "mignon-pasticceria",
+    "name": "Mignon Pasticceria Artigianale",
+    "category": "Agriturismo/Pasticceria",
+    "area": "Cazzano di Tramigna",
+    "description_it": "A Cazzano di Tramigna, tra vigneti e ulivi, una pasticceria artigianale che usa i frutti del territorio per creare dolci fuori dagli schemi. Ingredienti locali, stagionali, lavorati con tecnica vera.",
+    "description_en": "In Cazzano di Tramigna, among vineyards and olive trees, an artisan pastry shop that uses local produce to create sweets beyond the ordinary. Local, seasonal ingredients worked with genuine skill.",
+    "description_de": "In Cazzano di Tramigna, zwischen Weinbergen und Olivenbäumen: eine handwerkliche Konditorei, die regionale Früchte für außergewöhnliche Süßwaren nutzt. Lokale, saisonale Zutaten, verarbeitet mit echtem Können."
+  },
+  {
+    "slug": "la-ferraretta-bianca",
+    "name": "La Ferraretta Bianca",
+    "category": "Agriturismo",
+    "area": "Tregnago",
+    "description_it": "Agriturismo immerso nella verde profondità di Tregnago. Un posto per rallentare, mangiare quello che la terra produce qui intorno e dormire con il silenzio che solo la collina veronese sa dare.",
+    "description_en": "A farmhouse agriturismo nestled in the deep green of Tregnago. A place to slow down, eat what the land around it produces, and sleep in the kind of silence only the Veronese hills can offer.",
+    "description_de": "Agriturismo inmitten der tiefen Grünflächen von Tregnago. Ein Ort zum Entschleunigen, zum Essen, was das Land ringsum hervorbringt, und zum Schlafen in der Stille, die nur die Veronese Hügel bieten können."
+  },
+  {
+    "slug": "ristorante-al-derlo",
+    "name": "Ristorante Al Derlo",
+    "category": "Ristorante",
+    "area": "Lessinia",
+    "description_it": "In Lessinia, dove la cucina parlava di funghi, formaggi e selvaggina prima che diventasse trendy dirlo, Al Derlo va avanti come sempre. Sapori diretti, porzioni generose, nessuna mediazione tra il piatto e la montagna.",
+    "description_en": "In Lessinia, where the cooking spoke of mushrooms, cheese and game long before it became trendy to say so, Al Derlo carries on as it always has. Direct flavors, generous portions, no mediation between the dish and the mountain.",
+    "description_de": "In der Lessinia, wo die Küche von Pilzen, Käse und Wild sprach, lange bevor das trendy wurde, macht Al Derlo weiter wie immer. Direkte Aromen, großzügige Portionen, kein Umweg zwischen Gericht und Berg."
+  },
+  {
+    "slug": "cracaus",
+    "name": "Cracaus",
+    "category": "Artigianato/Galleria",
+    "area": "Porta Vescovo, Verona",
+    "description_it": "Nel quartiere di Porta Vescovo, un ibrido tra galleria e laboratorio artigianale che sfida le categorie. Lavori che nascono dalla mano e finiscono sulle pareti o nelle mani di chi li sceglie con cura.",
+    "description_en": "In the Porta Vescovo neighborhood, a hybrid between gallery and craft workshop that defies easy categories. Work born from the hand, ending up on walls or in the hands of those who choose carefully.",
+    "description_de": "Im Viertel Porta Vescovo: ein Hybrid aus Galerie und Handwerksbetrieb, der sich Kategorien entzieht. Arbeiten, die aus der Hand entstehen und auf Wände oder in die Hände derer gelangen, die mit Bedacht wählen."
+  },
+  {
+    "slug": "la-giarina",
+    "name": "La Giarina",
+    "category": "Cultura/Galleria",
+    "area": "Veronetta, Verona",
+    "description_it": "Galleria d'arte contemporanea nel quartiere universitario di Veronetta. Spazio di ricerca indipendente che porta a Verona voci dell'arte italiana ed europea lontane dai circuiti commerciali.",
+    "description_en": "Contemporary art gallery in the university neighborhood of Veronetta. An independent research space bringing voices from Italian and European art to Verona — far from commercial circuits.",
+    "description_de": "Zeitgenössische Kunstgalerie im Universitätsviertel Veronetta. Ein unabhängiger Forschungsraum, der Stimmen der italienischen und europäischen Kunst nach Verona bringt — fernab kommerzieller Schaltkreise."
+  },
+  {
+    "slug": "filufilu-bags",
+    "name": "FiluFilù Bags",
+    "category": "Negozio",
+    "area": "Verona",
+    "description_it": "Borse artigianali realizzate a Verona con materiali scelti e tecniche di lavorazione tradizionali. Pezzi che durano perché sono pensati per durare — non oggetti di moda, ma compagni di viaggio.",
+    "description_en": "Handmade bags crafted in Verona with carefully selected materials and traditional techniques. Pieces that last because they're designed to — not fashion objects, but travel companions.",
+    "description_de": "Handgefertigte Taschen aus Verona, hergestellt mit sorgfältig ausgewählten Materialien und traditionellen Techniken. Stücke, die halten, weil sie so gedacht sind — keine Modeobjekte, sondern Reisebegleiter."
+  },
+  {
+    "slug": "la-grenouille-ceramiche",
+    "name": "La Grenouille Ceramiche",
+    "category": "Artigianato",
+    "area": "Santa Maria in Stelle",
+    "description_it": "Laboratorio di ceramica a Santa Maria in Stelle, dove l'argilla diventa forma attraverso un lavoro lento e intenzionale. Pezzi per la tavola e per la casa che portano il segno della mano.",
+    "description_en": "A ceramics studio in Santa Maria in Stelle, where clay becomes form through slow, intentional work. Tableware and home pieces that carry the mark of the hand.",
+    "description_de": "Eine Keramikwerkstatt in Santa Maria in Stelle, wo Ton durch langsame, bewusste Arbeit Form annimmt. Tisch- und Wohnaccessoires, die die Handschrift tragen."
+  },
+  {
+    "slug": "manufacta",
+    "name": "Manufacta",
+    "category": "Ricreazione",
+    "area": "Verona",
+    "description_it": "Spazio veronese dedicato al fare con le mani: corsi, workshop e incontri per chi vuole ritrovare il piacere della creazione artigianale. Un antidoto concreto alla passività del consumo.",
+    "description_en": "A Veronese space dedicated to making things by hand: courses, workshops and gatherings for those who want to rediscover the pleasure of craft. A concrete antidote to the passivity of consumption.",
+    "description_de": "Ein Veronese Raum fürs Handmachen: Kurse, Workshops und Treffen für alle, die das Vergnügen des Handwerks wiederentdecken wollen. Ein konkretes Gegenmittel zur Passivität des Konsums."
+  },
+  {
+    "slug": "dal-zovo-wine-bar",
+    "name": "Dal Zovo Wine Bar",
+    "category": "Bar",
+    "area": "Borgo Trento, Verona",
+    "description_it": "Wine bar a Borgo Trento con carta costruita su cantine piccole e vini che non si trovano ovunque. Posto per bere bene senza cerimonia, con qualcuno che sa di cosa sta parlando dall'altro lato del banco.",
+    "description_en": "A wine bar in Borgo Trento built around small producers and wines you won't find just anywhere. A place to drink well without ceremony, with someone who knows what they're talking about on the other side of the counter.",
+    "description_de": "Eine Weinbar in Borgo Trento mit einer Karte aus kleinen Weingütern und Weinen, die man nicht überall findet. Ein Ort zum guten Trinken ohne Zeremoniell, mit jemandem hinter der Theke, der weiß, wovon er spricht."
+  },
+  {
+    "slug": "laboratorio-castelli",
+    "name": "Laboratorio Castelli",
+    "category": "Bar/Artigianato",
+    "area": "Borgo Trento, Verona",
+    "description_it": "A Borgo Trento, un laboratorio che è anche bar: si viene per il caffè e si resta per guardare cosa nasce dalle mani degli artigiani. Un doppio ritmo, mattina e pomeriggio, che sa di quartiere vero.",
+    "description_en": "In Borgo Trento, a workshop that's also a bar: you come for coffee and stay to watch what emerges from the craftspeople's hands. A double rhythm, morning and afternoon, that feels like a real neighborhood.",
+    "description_de": "In Borgo Trento: eine Werkstatt, die auch Bar ist. Man kommt für den Kaffee und bleibt, um zu sehen, was unter den Händen der Handwerker entsteht. Ein doppelter Rhythmus — morgens und nachmittags — wie ein echtes Viertel."
+  },
+  {
+    "slug": "pizzeria-al-taglio-amalfi",
+    "name": "Pizzeria al Taglio Amalfi",
+    "category": "Ristorante",
+    "area": "Borgo Trento, Verona",
+    "description_it": "Pizza al taglio a Borgo Trento fatta con impasto a lunga lievitazione e condimenti che cambiano ogni giorno. Nessun fronzolo, solo attenzione vera alla materia prima. Il tipo di posto che un quartiere bravo ha sempre.",
+    "description_en": "Pizza by the slice in Borgo Trento, made with long-fermented dough and daily-changing toppings. No fuss, just genuine attention to the ingredients. The kind of place a good neighborhood always has.",
+    "description_de": "Pizza al taglio in Borgo Trento mit lang gereiftem Teig und täglich wechselnden Belägen. Kein Schnickschnack, nur echte Aufmerksamkeit für die Zutaten. Die Art von Ort, die ein gutes Viertel immer hat."
+  },
+  {
+    "slug": "caffe-vicenzi",
+    "name": "Caffè Vicenzi",
+    "category": "Bar",
+    "area": "San Giovanni Lupatoto",
+    "description_it": "Caffè di quartiere a San Giovanni Lupatoto dove la colazione è ancora un rito collettivo. Uno di quei bar che reggono il ritmo di una comunità senza che nessuno lo dica esplicitamente.",
+    "description_en": "A neighborhood café in San Giovanni Lupatoto where breakfast is still a communal ritual. One of those bars that holds a community's rhythm together without anyone saying so explicitly.",
+    "description_de": "Ein Stadtteilcafé in San Giovanni Lupatoto, wo das Frühstück noch ein Gemeinschaftsritual ist. Einer jener Bars, die den Rhythmus einer Gemeinschaft tragen — ohne dass es jemand explizit ausspricht."
+  },
+  {
+    "slug": "panificio-roldo",
+    "name": "Panificio Roldo",
+    "category": "Bar/Panificio",
+    "area": "San Giovanni Lupatoto",
+    "description_it": "Panificio artigianale a San Giovanni Lupatoto dove il pane si fa ancora con lievito madre e rispetto dei tempi. Mattino presto, profumo di forno, fila di chi sa che ne vale la pena.",
+    "description_en": "Artisan bakery in San Giovanni Lupatoto where bread is still made with sourdough starter and proper timing. Early morning, oven warmth, a queue of people who know it's worth it.",
+    "description_de": "Handwerksbäckerei in San Giovanni Lupatoto, wo Brot noch mit Sauerteig und dem nötigen Zeitrespekt gebacken wird. Früher Morgen, Ofenwärme, eine Schlange von Menschen, die wissen, dass es sich lohnt."
+  },
+  {
+    "slug": "cordioli-erminio",
+    "name": "Cordioli Erminio",
+    "category": "Agriturismo",
+    "area": "Lago di Garda area",
+    "description_it": "Azienda agricola nell'area del Lago di Garda che porta avanti una tradizione familiare di produzione vinicola e agricola. Il posto giusto per capire cosa significa il territorio gardesano fuori dalla rotta turistica.",
+    "description_en": "A family farm in the Lake Garda area that carries forward generations of winemaking and agriculture. The right place to understand what the Garda territory means outside the tourist circuit.",
+    "description_de": "Ein Familienbetrieb im Gardasee-Gebiet, der eine generationenlange Tradition in Weinbau und Landwirtschaft weiterführt. Der richtige Ort, um zu verstehen, was das Gardasee-Territorium jenseits der Touristenroute bedeutet."
+  },
+  {
+    "slug": "fondo-prognoi-frantoio-ballarini",
+    "name": "Fondo Prognoi / Frantoio Ballarini",
+    "category": "Alimentari",
+    "area": "Cazzano di Tramigna",
+    "description_it": "Frantoio tra le colline di Cazzano di Tramigna dove l'olio si produce ancora con cura artigianale. Visite al frantoio in stagione, olio in vendita tutto l'anno: un prodotto che racconta il paesaggio in cui nasce.",
+    "description_en": "An olive press among the hills of Cazzano di Tramigna where oil is still produced with artisan care. Mill visits in season, oil for sale year-round: a product that tells the story of the landscape it comes from.",
+    "description_de": "Eine Ölmühle zwischen den Hügeln von Cazzano di Tramigna, wo Olivenöl noch mit handwerklicher Sorgfalt hergestellt wird. Mühlenbesuche in der Saison, Öl das ganze Jahr erhältlich: ein Produkt, das die Landschaft seiner Herkunft erzählt."
+  },
+  {
+    "slug": "alimentari-boschi",
+    "name": "Alimentari Boschi",
+    "category": "Alimentari",
+    "area": "Lessinia",
+    "description_it": "Alimentari in Lessinia che è anche presidio del territorio: formaggi, salumi e conserve di produttori locali che difficilmente si trovano in pianura. Una bottega che tiene in vita una rete di saperi antichi.",
+    "description_en": "A grocery store in Lessinia that is also a guardian of the territory: cheeses, cured meats and preserves from local producers that are hard to find down in the plain. A shop that keeps a network of ancient knowledge alive.",
+    "description_de": "Ein Lebensmittelladen in der Lessinia, der auch Hüter des Territoriums ist: Käse, Wurstwaren und Konserven von lokalen Produzenten, die man in der Ebene kaum findet. Ein Laden, der ein Netz alten Wissens am Leben hält."
+  },
+  {
+    "slug": "alimentari-da-berto",
+    "name": "Alimentari da Berto",
+    "category": "Alimentari",
+    "area": "Campofontana, Lessinia",
+    "description_it": "A Campofontana, in alta Lessinia, un alimentari che è punto di riferimento per l'intera comunità montana. Prodotti locali, orari legati al ritmo del paese, un senso di necessità autentica che nessun supermercato può replicare.",
+    "description_en": "In Campofontana, in the high Lessinia, a grocery store that is a reference point for the entire mountain community. Local products, hours tied to the village's rhythm, a sense of genuine necessity no supermarket can replicate.",
+    "description_de": "In Campofontana, in der hohen Lessinia: ein Lebensmittelladen, der Anlaufpunkt für die gesamte Berggemeinschaft ist. Lokale Produkte, Öffnungszeiten im Rhythmus des Dorfes, ein Gefühl echter Notwendigkeit, das kein Supermarkt ersetzen kann."
+  },
+  {
+    "slug": "caseificio-gugole-dario",
+    "name": "Caseificio Artigiano Gugole Dario",
+    "category": "Artigianato",
+    "area": "Lessinia",
+    "description_it": "Caseificio artigianale in Lessinia che produce formaggi seguendo i ritmi del pascolo e delle stagioni. Latte locale, stagionature vere, niente di industriale: il formaggio come mestiere tramandato.",
+    "description_en": "An artisan cheese dairy in Lessinia that produces cheese following the rhythms of pasture and seasons. Local milk, real aging, nothing industrial: cheesemaking as a handed-down craft.",
+    "description_de": "Eine handwerkliche Käserei in der Lessinia, die Käse im Rhythmus von Weide und Jahreszeiten produziert. Lokale Milch, echte Reifung, nichts Industrielles: Käserei als überliefertes Handwerk."
+  },
+  {
+    "slug": "besarte",
+    "name": "Besarte",
+    "category": "Cultura/Galleria",
+    "area": "Centro Storico, Verona",
+    "description_it": "Spazio culturale nel centro storico di Verona che incrocia arte, artigianato e sperimentazione. Un luogo di incontro tra discipline che non è galleria e non è negozio, ma riesce a essere entrambe le cose.",
+    "description_en": "A cultural space in Verona's historic center that crosses art, craft and experimentation. A meeting point between disciplines that is neither gallery nor shop, yet manages to be both.",
+    "description_de": "Ein Kulturraum im historischen Zentrum Veronas, der Kunst, Handwerk und Experiment verbindet. Ein Begegnungsort zwischen Disziplinen — keine Galerie, kein Laden, und doch beides."
+  },
+  {
+    "slug": "calico-bottega-sartoriale",
+    "name": "Calico Bottega Sartoriale",
+    "category": "Negozio",
+    "area": "Verona",
+    "description_it": "Bottega sartoriale veronese dove i capi vengono costruiti su misura con tessuti selezionati e lavorazione manuale. Il contrario del fast fashion: abiti pensati per durare e per chi li indossa.",
+    "description_en": "A Veronese tailoring workshop where garments are built to measure with selected fabrics and handwork. The opposite of fast fashion: clothes designed to last and made for whoever wears them.",
+    "description_de": "Ein Veronese Schneideratelier, in dem Kleidung maßgeschneidert mit ausgewählten Stoffen und Handarbeit entsteht. Das Gegenteil von Fast Fashion: Kleidung, die halten soll und für denjenigen gemacht wird, der sie trägt."
+  },
+  {
+    "slug": "atanor",
+    "name": "Atanor",
+    "category": "Artigianato",
+    "area": "Illasi",
+    "description_it": "Laboratorio artigianale a Illasi, nella Valle d'Illasi, dove materia e fuoco si incontrano per produrre oggetti unici. Un lavoro che richiede pazienza, tecnica e un rapporto diretto con i materiali.",
+    "description_en": "A craft workshop in Illasi, in the Illasi Valley, where material and fire meet to produce unique objects. Work that demands patience, technique and a direct relationship with materials.",
+    "description_de": "Eine Handwerkswerkstatt in Illasi im Illasi-Tal, wo Material und Feuer aufeinandertreffen, um einzigartige Objekte zu schaffen. Arbeit, die Geduld, Technik und einen direkten Umgang mit Materialien verlangt."
+  },
+  {
+    "slug": "crispy-lab",
+    "name": "Crispy Lab",
+    "category": "Artigianato",
+    "area": "Montorio",
+    "description_it": "Laboratorio di snack e prodotti croccanti a Montorio, dove la ricerca sugli ingredienti è il punto di partenza. Sapori insoliti, processi artigianali, il tipo di curiosità alimentare che mancava a Verona.",
+    "description_en": "A snack and crispy-food workshop in Montorio where ingredient research is the starting point. Unusual flavors, artisan processes, the kind of food curiosity Verona was missing.",
+    "description_de": "Eine Snack- und Knusper-Werkstatt in Montorio, wo die Zutatenforschung der Ausgangspunkt ist. Ungewöhnliche Aromen, handwerkliche Prozesse — die Art von kulinarischer Neugier, die Verona fehlte."
+  },
+  {
+    "slug": "lasko-lifestyle",
+    "name": "Lasko Lifestyle",
+    "category": "Negozio",
+    "area": "Verona",
+    "description_it": "Negozio a Verona con una selezione di oggetti per la casa e la vita quotidiana costruita con gusto e coerenza. Non un concept store da catalogo, ma un posto dove ogni cosa ha una ragione per esserci.",
+    "description_en": "A Verona store with a selection of home and everyday objects assembled with taste and coherence. Not a catalog concept store, but a place where everything has a reason to be there.",
+    "description_de": "Ein Laden in Verona mit einer mit Geschmack und Konsequenz zusammengestellten Auswahl an Wohn- und Alltagsgegenständen. Kein Katalog-Concept-Store, sondern ein Ort, an dem jedes Teil einen Grund hat, dort zu sein."
+  },
+  {
+    "slug": "ribes-nero",
+    "name": "Ribes Nero",
+    "category": "Artigianato",
+    "area": "San Pietro in Cariano",
+    "description_it": "Laboratorio di prodotti naturali a San Pietro in Cariano, tra le vigne della Valpolicella. Cura artigianale applicata a conserve, infusi e preparazioni che rispecchiano il territorio circostante.",
+    "description_en": "A natural products workshop in San Pietro in Cariano, among the Valpolicella vineyards. Artisan care applied to preserves, infusions and preparations that reflect the surrounding territory.",
+    "description_de": "Eine Naturprodukte-Werkstatt in San Pietro in Cariano, zwischen den Weinbergen der Valpolicella. Handwerkliche Sorgfalt bei Konserven, Aufgüssen und Zubereitungen, die das Umland widerspiegeln."
+  },
+  {
+    "slug": "cinema-teatro-astra",
+    "name": "Cinema Teatro Astra",
+    "category": "Cultura",
+    "area": "San Giovanni Lupatoto",
+    "description_it": "Sala cinematografica e teatrale di quartiere a San Giovanni Lupatoto che resiste all'omologazione dei multisala. Programmazione indipendente, rassegne tematiche, un presidio culturale per chi abita fuori dal centro.",
+    "description_en": "A neighborhood cinema and theatre in San Giovanni Lupatoto that resists the homogenization of multiplex culture. Independent programming, thematic screenings, a cultural anchor for those who live outside the city center.",
+    "description_de": "Ein Stadtteilkino und -theater in San Giovanni Lupatoto, das dem Einheitsbrei der Multiplexe widersteht. Unabhängiges Programm, Themenreihen — ein kultureller Ankerpunkt für alle, die außerhalb des Zentrums leben."
+  },
+  {
+    "slug": "ekhaya-factory",
+    "name": "Ekhaya Factory",
+    "category": "Negozio",
+    "area": "Valdonega, Verona",
+    "description_it": "Spazio nel quartiere di Valdonega che porta a Verona oggetti e tessuti dall'Africa subsahariana con attenzione al commercio equo e alla filiera produttiva. Un negozio che racconta storie oltre i prodotti.",
+    "description_en": "A space in Verona's Valdonega neighborhood that brings objects and textiles from sub-Saharan Africa with attention to fair trade and the production chain. A shop that tells stories beyond its products.",
+    "description_de": "Ein Raum im Veronese Viertel Valdonega, der Objekte und Stoffe aus Subsahara-Afrika mit Fokus auf fairen Handel und Produktionskette nach Verona bringt. Ein Laden, der Geschichten jenseits der Produkte erzählt."
+  },
+  {
+    "slug": "osteria-la-mandorla",
+    "name": "Osteria La Mandorla",
+    "category": "Ristorante",
+    "area": "Centro Storico, Verona",
+    "description_it": "Osteria nel centro storico di Verona dove la cucina del territorio non è una scusa per i prezzi ma una pratica quotidiana. Piatti stagionali, vini regionali, ambiente che non ha bisogno di spiegazioni.",
+    "description_en": "A tavern in Verona's historic center where local cooking is not an excuse for high prices but a daily practice. Seasonal dishes, regional wines, an atmosphere that needs no explanation.",
+    "description_de": "Eine Osteria im historischen Zentrum Veronas, wo regionale Küche keine Ausrede für hohe Preise ist, sondern gelebte Praxis. Saisonale Gerichte, regionale Weine, eine Atmosphäre, die keine Erklärung braucht."
+  },
+  {
+    "slug": "teatro-nuovo",
+    "name": "Teatro Nuovo",
+    "category": "Cultura",
+    "area": "Centro Storico, Verona",
+    "description_it": "Il Teatro Nuovo è una delle sale storiche di Verona, con una programmazione che spazia dalla prosa alla danza contemporanea. Un luogo della città dove la cultura popolare e quella d'autore si incontrano ancora.",
+    "description_en": "Teatro Nuovo is one of Verona's historic venues, with programming ranging from prose to contemporary dance. A city space where popular culture and authored work still meet.",
+    "description_de": "Das Teatro Nuovo ist einer der historischen Säle Veronas, mit einem Programm von Prosa bis zeitgenössischem Tanz. Ein Ort, an dem populäre Kultur und Autorenstücke noch aufeinandertreffen."
+  },
+  {
+    "slug": "collezione-fraccaroli",
+    "name": "Collezione Fraccaroli",
+    "category": "Natura/Arte",
+    "area": "Lavagno",
+    "description_it": "A Lavagno, una collezione privata aperta al pubblico che mette in dialogo scultura contemporanea e paesaggio. Un'esperienza che richiede attenzione e lentezza: arte che non si consuma in fretta.",
+    "description_en": "In Lavagno, a private collection open to the public that puts contemporary sculpture and landscape in dialogue. An experience that requires attention and slowness: art that doesn't get consumed quickly.",
+    "description_de": "In Lavagno: eine private Sammlung, die der Öffentlichkeit zugänglich ist und zeitgenössische Skulptur mit Landschaft in Dialog bringt. Eine Erfahrung, die Aufmerksamkeit und Langsamkeit erfordert: Kunst, die nicht schnell konsumiert wird."
+  },
+  {
+    "slug": "roseros",
+    "name": "Roseros",
+    "category": "Natura/Arte",
+    "area": "Colline di Verona",
+    "description_it": "Sulle colline di Verona, uno spazio che fonde produzione agricola e progetto artistico in un contesto paesaggistico straordinario. Un luogo che sfida la separazione tra natura, lavoro e cultura.",
+    "description_en": "On the hills of Verona, a space that fuses agricultural production and artistic project in an extraordinary landscape setting. A place that challenges the separation between nature, work and culture.",
+    "description_de": "Auf den Hügeln von Verona: ein Ort, der landwirtschaftliche Produktion und künstlerisches Projekt in außergewöhnlicher Landschaft vereint. Ein Ort, der die Trennung zwischen Natur, Arbeit und Kultur in Frage stellt."
+  },
+  {
+    "slug": "pizzeria-gemma",
+    "name": "Pizzeria Gemma",
+    "category": "Ristorante",
+    "area": "Borgo Trento, Verona",
+    "description_it": "Pizza napoletana a Borgo Trento fatta con attenzione maniacale all'impasto e agli ingredienti. In un quartiere con troppe pizzerie mediocri, Gemma è il riferimento per chi non si accontenta.",
+    "description_en": "Neapolitan pizza in Borgo Trento made with obsessive attention to dough and ingredients. In a neighborhood with too many mediocre pizzerias, Gemma is the reference point for those who won't settle.",
+    "description_de": "Neapolitanische Pizza in Borgo Trento, hergestellt mit akribischer Aufmerksamkeit für Teig und Zutaten. In einem Viertel mit zu vielen mittelmäßigen Pizzerien ist Gemma der Maßstab für alle, die sich nicht abfinden."
+  },
+  {
+    "slug": "pizzeria-mameli",
+    "name": "Pizzeria Mameli",
+    "category": "Ristorante",
+    "area": "Borgo Trento, Verona",
+    "description_it": "Altra pizzeria seria a Borgo Trento, con impasto a lievitazione naturale e una carta degli ingredienti costruita con coerenza. Il tipo di pizza che si mangia lentamente perché lo merita.",
+    "description_en": "Another serious pizzeria in Borgo Trento, with naturally leavened dough and an ingredient list built with coherence. The kind of pizza you eat slowly because it deserves it.",
+    "description_de": "Eine weitere ernsthafte Pizzeria in Borgo Trento, mit natürlich gereiftem Teig und einer mit Konsequenz aufgebauten Zutatenliste. Die Art Pizza, die man langsam isst, weil sie es verdient."
+  },
+  {
+    "slug": "salone-ivo",
+    "name": "Salone Ivo",
+    "category": "Ricreazione",
+    "area": "Borgo Trento, Verona",
+    "description_it": "Barbiere storico di Borgo Trento dove il taglio di capelli è ancora un momento sociale. Uno di quei posti dove si parla di tutto e si esce non solo con i capelli a posto ma con qualcosa in più.",
+    "description_en": "A historic barbershop in Borgo Trento where getting a haircut is still a social moment. One of those places where everything gets talked about, and you leave not just with better hair but with something more.",
+    "description_de": "Ein historischer Barbier in Borgo Trento, wo der Haarschnitt noch ein sozialer Moment ist. Einer jener Orte, wo über alles gesprochen wird und man nicht nur mit besserem Haar, sondern auch mit etwas mehr herausgeht."
+  },
+  {
+    "slug": "abeo",
+    "name": "Abeo",
+    "category": "Cultura/Sociale",
+    "area": "Borgo Trento, Verona",
+    "description_it": "Associazione veronese che lavora nell'inclusione sociale attraverso attività culturali e di comunità. Un esempio di come lo spazio associativo possa essere presidio di umanità in un quartiere.",
+    "description_en": "A Veronese association working on social inclusion through cultural and community activities. An example of how associative space can be a guardian of humanity in a neighborhood.",
+    "description_de": "Ein Veronese Verein, der durch kulturelle und gemeinschaftliche Aktivitäten an sozialer Inklusion arbeitet. Ein Beispiel dafür, wie Vereinsraum zum Hüter von Menschlichkeit in einem Viertel werden kann."
+  }
+]
