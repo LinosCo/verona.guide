@@ -358,5 +358,68 @@
     "description_it": "Associazione veronese che lavora nell'inclusione sociale attraverso attività culturali e di comunità. Un esempio di come lo spazio associativo possa essere presidio di umanità in un quartiere.",
     "description_en": "A Veronese association working on social inclusion through cultural and community activities. An example of how associative space can be a guardian of humanity in a neighborhood.",
     "description_de": "Ein Veronese Verein, der durch kulturelle und gemeinschaftliche Aktivitäten an sozialer Inklusion arbeitet. Ein Beispiel dafür, wie Vereinsraum zum Hüter von Menschlichkeit in einem Viertel werden kann."
+  },
+  {
+    "slug": "locanda-case-vecie",
+    "name": "Locanda Case Vecie",
+    "category": "Ristorante/Agriturismo",
+    "area": "Grezzana, Valpantena",
+    "description_it": "Tra le colline della Valpantena, Locanda Case Vecie e una realta rurale autentica, lontana dai flussi del centro. Cucina di territorio e ritmo lento, in una cornice agricola che conserva identita locale.",
+    "description_en": "In the hills of Valpantena, Locanda Case Vecie is an authentic rural venue far from central tourist flows. Territory-driven cooking and a slower pace in a countryside setting that keeps strong local identity.",
+    "description_de": "In den Huegeln der Valpantena ist die Locanda Case Vecie ein authentischer, laendlicher Ort fern der Touristenstroeme im Zentrum. Regionale Kueche und langsamer Rhythmus in einem Umfeld mit klarer lokaler Identitaet."
+  },
+  {
+    "slug": "trattoria-della-ripa",
+    "name": "Trattoria della Ripa",
+    "category": "Trattoria",
+    "area": "Alcenago di Grezzana, Valpantena",
+    "description_it": "Trattoria di collina ad Alcenago, fuori dalla rotta turistica standard di Verona. Tavola locale, atmosfera familiare e una posizione panoramica che racconta la Valpantena piu autentica.",
+    "description_en": "A hillside trattoria in Alcenago, outside Verona's standard tourist route. Local table, family atmosphere, and a panoramic position that reflects the most authentic side of Valpantena.",
+    "description_de": "Eine Huegel-Trattoria in Alcenago, abseits der ueblichen Touristenroute Veronas. Lokale Kueche, familiaere Atmosphaere und Panoramalage, die die authentische Valpantena zeigt."
+  },
+  {
+    "slug": "la-volpe-e-l-uva",
+    "name": "La Volpe e l'Uva",
+    "category": "Wine Bar/Agriturismo",
+    "area": "Torricelle, Verona",
+    "description_it": "Sulle colline di Verona, nella cornice di San Mattia, La Volpe e l'Uva e una realta stagionale con vista sulla citta, vino del territorio e atmosfera rilassata fuori dal flusso turistico centrale.",
+    "description_en": "On Verona's hills, within the San Mattia setting, La Volpe e l'Uva is a seasonal venue with city views, local wines, and a relaxed atmosphere away from central tourist flows.",
+    "description_de": "Auf den Huegeln von Verona, im Umfeld von San Mattia, ist La Volpe e l'Uva ein saisonaler Ort mit Stadtblick, lokalen Weinen und entspannter Atmosphaere abseits der touristischen Hauptstroeme."
+  },
+  {
+    "slug": "birrificio-campostela",
+    "name": "Birrificio Campostela",
+    "category": "Birrificio Artigianale",
+    "area": "Roverchiaretta",
+    "description_it": "A due passi dalla ciclabile, in una vecchia corte rurale restaurata con rispetto, un birrificio artigianale e tap room dove la birra fresca appena prodotta si beve nel posto dove e nata. Il tipo di sosta che trasforma una pedalata in un ricordo.",
+    "description_en": "A stone's throw from the cycle path, inside a lovingly restored old rural courtyard, a craft brewery and tap room where freshly brewed beer is drunk right where it was born. The kind of stop that turns a bike ride into a memory.",
+    "description_de": "Einen Steinwurf vom Radweg entfernt, in einem liebevoll restaurierten alten Bauernhof, eine Handwerksbrauerei und Tap Room, wo frisch gebrautes Bier genau dort getrunken wird, wo es entstanden ist. Die Art Halt, die eine Radtour zur Erinnerung macht."
+  },
+  {
+    "slug": "trattoria-sofia",
+    "name": "Trattoria Sofia",
+    "category": "Ristorante",
+    "area": "Scardevara, Ronco all'Adige",
+    "description_it": "Uno dei ristoranti piu amati della zona: vicino alla ciclabile, ora le figlie sono protagoniste. Menu della tradizione come il risotto con le rane che non si trova altrove. Prenota, perche il passaparola funziona.",
+    "description_en": "One of the most beloved restaurants in the area: near the cycle path, now run by the daughters. Traditional dishes like risotto with frogs that you simply won't find elsewhere. Book ahead — word of mouth works.",
+    "description_de": "Eines der beliebtesten Restaurants der Gegend: nahe am Radweg, jetzt von den Toechtern gefuehrt. Traditionelle Gerichte wie Risotto mit Froeschen, die man anderswo nicht findet. Reservieren — Mundpropaganda funktioniert."
+  },
+  {
+    "slug": "perlini-ceramiche",
+    "name": "Anna Grazia Perlini Ceramiche",
+    "category": "Artigianato/Arte",
+    "area": "Verona",
+    "description_it": "Se il destino l'avesse fatta nascere a Los Angeles, oggi le avrebbero dedicato un museo. A Verona, invece, ancora troppo pochi la conoscono. Ceramiche che sono scultura, colore e racconto — tutto insieme.",
+    "description_en": "If fate had placed her in Los Angeles, she'd have a museum by now. In Verona, still too few know her work. Ceramics that are sculpture, colour and storytelling — all at once.",
+    "description_de": "Haette das Schicksal sie in Los Angeles geboren werden lassen, haette sie laengst ein eigenes Museum. In Verona kennen sie noch zu wenige. Keramiken, die Skulptur, Farbe und Erzaehlung zugleich sind."
+  },
+  {
+    "slug": "officina-lume",
+    "name": "Officina Lume",
+    "category": "Artigianato",
+    "area": "Cavaion Veronese",
+    "description_it": "In continuita con la tradizione familiare che risale al 1979, Alberto produce paralumi artigianali fatti a mano. Quando un paralume puo diventare la testimonianza di un mestiere che resiste, sei nel posto giusto.",
+    "description_en": "Continuing the family tradition that began in 1979, Alberto handcrafts custom lampshades. When a lampshade can become testimony to a craft that endures, you're in the right place.",
+    "description_de": "In Fortfuehrung der Familientradition seit 1979 fertigt Alberto handgemachte Lampenschirme nach Mass. Wenn ein Lampenschirm zum Zeugnis eines bestaendigen Handwerks werden kann, sind Sie am richtigen Ort."
   }
 ]
