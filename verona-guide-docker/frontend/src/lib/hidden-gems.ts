@@ -8,6 +8,7 @@ export interface HiddenGem {
   description_it: string;
   description_en: string;
   description_de: string;
+  imageUrl: string;
 }
 
 export type SupportedLang = "it" | "en" | "de";

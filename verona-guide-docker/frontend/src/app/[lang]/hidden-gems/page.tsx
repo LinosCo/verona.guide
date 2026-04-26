@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import {
   getAllGems,
   getDescription,
@@ -138,24 +139,29 @@ export default async function HiddenGemsPage({
                 className="group flex flex-col p-6 transition-all duration-300"
                 style={{ background: "#0E0904" }}
               >
-                {/* Placeholder image area */}
+                {/* Thumbnail image */}
                 <div
                   className="w-full mb-4 relative overflow-hidden"
-                  style={{
-                    aspectRatio: "16/9",
-                    background: "rgba(245,240,232,0.04)",
-                  }}
+                  style={{ aspectRatio: "16/9" }}
                 >
+                  <Image
+                    src={gem.imageUrl}
+                    alt={gem.name}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
                   <div
                     className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     style={{ background: "rgba(186,255,41,0.05)" }}
                   />
                   <div
-                    className="absolute bottom-2 left-2 text-[10px] uppercase tracking-widest opacity-20"
+                    className="absolute bottom-2 left-2 text-[10px] uppercase tracking-widest opacity-40"
                     style={{
                       fontFamily: "var(--font-barlow), sans-serif",
                       fontWeight: 700,
                       color: "#BAFF29",
+                      textShadow: "0 1px 3px rgba(0,0,0,0.8)",
                     }}
                   >
                     {gem.area}

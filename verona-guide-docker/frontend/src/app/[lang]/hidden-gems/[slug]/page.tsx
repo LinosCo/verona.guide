@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import {
   getGemBySlug,
@@ -34,6 +35,9 @@ export async function generateMetadata({
   return {
     title: gem.name,
     description: desc,
+    openGraph: {
+      images: [{ url: gem.imageUrl, width: 800, height: 450 }],
+    },
     alternates: {
       languages: Object.fromEntries(
         SUPPORTED_LANGS.map((lng) => [lng, `/${lng}/hidden-gems/${gem.slug}`])
@@ -165,16 +169,20 @@ export default async function GemDetailPage({
           {gem.name}
         </h1>
 
-        {/* Placeholder image */}
+        {/* Hero image */}
         <div
-          className="w-full mb-10"
-          style={{
-            aspectRatio: "21/9",
-            background: "rgba(245,240,232,0.04)",
-            borderTop: "1px solid rgba(245,240,232,0.08)",
-            borderBottom: "1px solid rgba(245,240,232,0.08)",
-          }}
-        />
+          className="w-full mb-10 relative overflow-hidden rounded-sm"
+          style={{ aspectRatio: "21/9" }}
+        >
+          <Image
+            src={gem.imageUrl}
+            alt={gem.name}
+            fill
+            sizes="(max-width: 768px) 100vw, 896px"
+            className="object-cover"
+            priority
+          />
+        </div>
 
         {/* Description */}
         <p
